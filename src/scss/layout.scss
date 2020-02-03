@@ -1,3 +1,18 @@
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.page-content {
+  position: absolute;
+  z-index: 99;
+  color: white;
+  font-size: 30px;
+}
+
 .frame-layout__wrapper {
   background: linear-gradient(45deg, rgb(69, 72, 77) 0%, rgb(0, 0, 0) 100%);
   box-sizing: border-box;
